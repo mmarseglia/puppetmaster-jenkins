@@ -15,8 +15,7 @@ service pe-httpd restart
 cat > /tmp/newsite.pp <<EOM
 class { 'r10k':
   version => '1.3.4',
-#  remote => 'git@github.com:terrimonster/puppet-control.git',
-  remote => 'https://github.com/terrimonster/puppet-control.git',
+  remote => 'https://github.com/mmarseglia/puppetmaster-jenkins.git',
 }
 EOM
 echo "APPLYING R10K"

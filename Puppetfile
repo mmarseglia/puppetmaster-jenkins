@@ -60,4 +60,7 @@ mod 'staging',
 mod 'epel',
   :git => 'https://github.com/stahnma/puppet-module-epel.git'
 
+mod 'jenkins',
+  :git => 'https://github.com/jenkinsci/puppet-jenkins.git'
+
 ###############################################################################
