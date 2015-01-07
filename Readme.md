@@ -51,7 +51,7 @@ There are three systems in this environment:
 | Name    | Description                  | Address        | App URL                                                  |
 | ------- | ---------------------------- | -------------- | -------------------------------------------------------- |
 | xmaster | The PE Master                | 192.168.137.10 | [https://192.168.137.10](https://192.168.137.10)         |
-| jenkins  | Jenkins master running puppet agent | 192.168.137.14 |  [https://192.168.137.14:8080(https://192.168.137.14:8080) |
+| jenkins  | Jenkins master running puppet agent | 192.168.137.14 |  [https://192.168.137.14:8080](https://192.168.137.14:8080) |
 | node | Jenkins node running puppet agent | 192.168.137.15 |
 
 The default credentials for the PE Master Console are:
