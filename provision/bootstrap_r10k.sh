@@ -20,7 +20,7 @@ class { 'r10k':
 EOM
 echo "APPLYING R10K"
 /opt/puppet/bin/puppet apply /tmp/newsite.pp \
-  --modulepath=/etc/puppetlabs/puppet/modules
+  --modulepath=/vagrant/site:/etc/puppetlabs/puppet/modules
 
 /opt/puppet/bin/r10k deploy environment -p production --puppetfile \
   --verbose debug
